@@ -4,7 +4,7 @@ namespace Symfony4\Doctrine;
 
 use Symfony4\Doctrine\Company as CompanyEntity;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 use Seat\Domain\Client\Entity\Company;
 use Seat\Domain\Client\Entity\CompanyRepository;
 

@@ -4,7 +4,7 @@ namespace Symfony4\Doctrine;
 
 use Symfony4\Doctrine\Command as CommandEntity;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 use Error;
 use Ramsey\Uuid\Uuid;
 use Seat\Domain\Order\Entity\Command;

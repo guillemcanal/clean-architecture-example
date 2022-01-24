@@ -4,7 +4,7 @@ namespace Symfony4\Doctrine;
 
 use Symfony4\Doctrine\HtmlContent as HtmlContentEntity;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 use Exception;
 use Seat\Domain\Cms\Entity\HtmlContent;
 use Seat\Domain\Cms\Entity\HtmlContentRepository;

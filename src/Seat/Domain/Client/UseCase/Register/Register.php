@@ -32,7 +32,7 @@ class Register
         $this->companyRepository = $companyRepository;
     }
 
-    public function execute(RegisterRequest $request): void
+    public function execute(RegisterRequest $request, RegisterPresenter $presenter): void
     {
         $response = new RegisterResponse();
 

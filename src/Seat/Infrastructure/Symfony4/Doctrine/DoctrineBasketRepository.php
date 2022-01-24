@@ -4,7 +4,7 @@ namespace Symfony4\Doctrine;
 
 use Symfony4\Doctrine\Basket as BasketEntity;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 use Seat\Domain\Basket\Entity\Basket;
 use Seat\Domain\Basket\Entity\BasketRepository;
 use Seat\Domain\Basket\Model\BasketProduct;

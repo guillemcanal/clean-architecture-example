@@ -4,7 +4,7 @@ namespace Symfony4\Doctrine;
 
 use Symfony4\Doctrine\Product as ProductEntity;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 use Error;
 use Seat\Domain\Menu\Entity\Product;
 use Seat\Domain\Menu\Entity\ProductRepository;

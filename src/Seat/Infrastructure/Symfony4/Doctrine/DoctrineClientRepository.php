@@ -5,7 +5,7 @@ namespace Symfony4\Doctrine;
 use Symfony4\Doctrine\Company;
 use Symfony4\Doctrine\User;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 use Seat\Domain\Client\Entity\Client;
 use Seat\Domain\Client\Entity\ClientRepository;
 

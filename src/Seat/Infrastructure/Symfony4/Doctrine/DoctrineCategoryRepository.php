@@ -5,7 +5,7 @@ namespace Symfony4\Doctrine;
 use Error;
 use Symfony4\Doctrine\Category as CategoryEntity;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 use Seat\Domain\Menu\Entity\Category;
 use Seat\Domain\Menu\Entity\CategoryRepository;
 

@@ -37,3 +37,8 @@ yarn-error.log
 
 # Our app
 public/share
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
