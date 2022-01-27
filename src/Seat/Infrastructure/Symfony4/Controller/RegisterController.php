@@ -22,7 +22,7 @@ class RegisterController
         $registerRequest->email = $request->request->get('email');
         $registerRequest->password = $request->request->get('password');
 
-        $registerUseCase->execute($registerRequest);
+        $registerUseCase->execute($registerRequest, $presenter);
         //...
 
         return $view->generateView($form2request, $presenter->viewModel());
